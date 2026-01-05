@@ -13,7 +13,7 @@
             return n;
         }
         int left = 1; //square root cannot be less than 1 (for n ≥ 2)
-        int right = n; //square root of any number > 1 is never greater than n/2
+        int right = n/2; //square root of any number > 1 is never greater than n/2
         int result = 0; //stores best possible answer so far
         while (left <= right)
         {
